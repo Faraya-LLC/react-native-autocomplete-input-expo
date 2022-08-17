@@ -7,8 +7,8 @@ import {
   Text,
   TextInput,
   View,
-  ViewPropTypes as RNViewPropTypes
 } from 'react-native';
+import {ViewPropTypes as RNViewPropTypes} from 'deprecated-react-native-prop-types'
 
 // Keep this line for downwards compatibility with RN.
 // eslint-disable-next-line react/forbid-foreign-prop-types
